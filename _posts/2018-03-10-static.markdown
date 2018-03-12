@@ -1,0 +1,27 @@
+---
+layout: posts
+title: "Creating a static website"
+date: 2018-03-10 14:50:01 -0600
+categories: jekyll update
+---
+Creating a static website
+Creating a static website using Jekyll and Github Pages
+
+[Why Static?][why-static]
+
+[Creating a Blog with Jekyll][jekyll-blog]
+
+[Jekyll Posts][jekyll-posts]
+
+[Markdown Cheatsheet][markdown]
+
+View locally by running "jekyll serve" in the command line and navigating to locahost:4000 in the browser
+
+Press control-c to stop the server
+
+---
+
+[jekyll-blog]: https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
+[why-static]: http://blog.teamtreehouse.com/getting-started-static-sites
+[jekyll-posts]: https://michaelsoolee.com/jekyll-post-page/
+[markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
