@@ -19,6 +19,30 @@ View locally by running "jekyll serve" in the command line and navigating to loc
 
 Press control-c to stop the server
 
+Creating a static site locally with Jekyll:
+1. Prepare the enviornment
+{% highlight ruby %}
+gem install bundler
+{% endhighlight %}
+2. jekyll sandbox
+3. cd sandbox
+4. bundle exec jekyll serve
+5. Check it out on http://localhost:4000
+
+Connecting your static site to Github:
+1. Create a new repo in github named "sandbox"
+2. Copy the git url from the github settings - https://github.com/Hallm13/sandbox.git
+3. Create a repository in the Github Desktop app with your local jekyll files
+4. Paste the url in the repository settings in the Github Desktop app to connect the remote
+5. Commit your files to github
+6. Hosting the site on github will break the page links, so you have the add the following url filters to the config.yml file
+"<!-- For styles with static names... -->
+<link href="{{ "/assets/css/style.css" | relative_url }}" rel="stylesheet">
+<!-- For documents/pages whose URLs can change... -->
+[{{ page.title }}]("{{ page.url | relative_url }}")"
+7. Now just figure out why the styling didn't transfer from the local to github version...
+
+
 ---
 
 [jekyll-blog]: https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/
