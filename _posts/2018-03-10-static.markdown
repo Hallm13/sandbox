@@ -21,9 +21,7 @@ Press control-c to stop the server
 
 Creating a static site locally with Jekyll:
 1. Prepare the enviornment
-{% highlight ruby %}
 gem install bundler
-{% endhighlight %}
 2. jekyll sandbox
 3. cd sandbox
 4. bundle exec jekyll serve
