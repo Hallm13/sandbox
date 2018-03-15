@@ -15,6 +15,8 @@ Creating a static website using Jekyll and Github Pages
 
 [Markdown Cheatsheet][markdown]
 
+[Course on Jekyll][course]
+
 View locally by running "jekyll serve" in the command line and navigating to locahost:4000 in the browser
 
 Press control-c to stop the server
@@ -38,7 +40,10 @@ Connecting your static site to Github:
 <link href="{{ "/assets/css/style.css" | relative_url }}" rel="stylesheet">
 <!-- For documents/pages whose URLs can change... -->
 [{{ page.title }}]("{{ page.url | relative_url }}")"
-7. Now just figure out why the styling didn't transfer from the local to github version...
+7. Now figure out what's wrong with the styling
+
+styling:
+I'm trying to get the minima template gems installed on hallm13.github.io by using the instructions [here][minima]
 
 
 ---
@@ -47,3 +52,5 @@ Connecting your static site to Github:
 [why-static]: http://blog.teamtreehouse.com/getting-started-static-sites
 [jekyll-posts]: https://michaelsoolee.com/jekyll-post-page/
 [markdown]: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+[minima]: https://github.com/jekyll/minima
+[course]: https://learn.cloudcannon.com/jekyll/introduction-to-liquid/
