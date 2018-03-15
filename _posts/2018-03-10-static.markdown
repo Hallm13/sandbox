@@ -1,5 +1,5 @@
 ---
-layout: posts
+layout: default
 title: "Creating a static website"
 date: 2018-03-10 14:50:01 -0600
 categories: jekyll update

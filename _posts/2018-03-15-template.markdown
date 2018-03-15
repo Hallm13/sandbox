@@ -1,0 +1,9 @@
+---
+layout: default
+title: "Template"
+date: 2018-03-15 14:50:01 -0600
+categories: jekyll update
+---
+This site is a place to record experiments as I am working on them. Publish the outcomes of those experiments. Practice coding & design along the way.
+
+---

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: default
 title: "Why Design?"
 date: "2018-03-10 10:59:10 -0600"
 ---
