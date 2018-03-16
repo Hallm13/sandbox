@@ -28,11 +28,11 @@ theme: minima
 plugins:
   - jekyll-feed
 
-  # URL filters to fix the url structure for github pages. This allows us to preview locally and keep the right url structure on github.
-#<!-- For styles with static names... -->
-#<link href="{{ "/assets/css/style.css" | relative_url }}" rel="stylesheet">
-#<!-- For documents/pages whose URLs can change... -->
-#[{{ page.title }}]("{{ page.url | relative_url }}")
+ URL filters to fix the url structure for github pages. This allows us to preview locally and keep the right url structure on github.
+<!-- For styles with static names... -->
+<link href="{{ "/assets/css/style.css" | relative_url }}" rel="stylesheet">
+<!-- For documents/pages whose URLs can change... -->
+[{{ page.title }}]("{{ page.url | relative_url }}")
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
