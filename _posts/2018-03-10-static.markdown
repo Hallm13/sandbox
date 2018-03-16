@@ -36,10 +36,6 @@ Connecting your static site to Github:
 4. Paste the url in the repository settings in the Github Desktop app to connect the remote
 5. Commit your files to github
 6. Hosting the site on github will break the page links, so you have the add the following url filters to the config.yml file
-"<!-- For styles with static names... -->
-<link href="{{ "/assets/css/style.css" | relative_url }}" rel="stylesheet">
-<!-- For documents/pages whose URLs can change... -->
-[{{ page.title }}]("{{ page.url | relative_url }}")"
 7. Now figure out what's wrong with the styling
 
 styling:
